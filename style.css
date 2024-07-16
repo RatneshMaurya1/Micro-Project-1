@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter";
+    box-sizing: border-box;
+}
+.container{
+    height: 500px;
+    width: 100vw;
+    background: #FFCD9E;
+}
+.first-text{
+    position: relative;    
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 54px;
+    top: 50px;
+    left: 100px;
+}
+.second-text{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    top: 80px;
+    left: 100px;
+}
+.third-text{
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 15px;
+    position: relative;
+    top: 110px;
+    left: 100px;
+}
+.form input{
+    position: relative;
+    top: 150px;
+    left: 100px;
+    color:#888888;
+    font-size: 20px;
+    font-weight: 600;
+    /* line-height: 35px; */
+    padding: 10px 60px 10px 10px;
+    border:3px solid black;
+    border-radius: 6px;
+}
+.form button{
+    position: relative;
+    top: 150px;
+    left: 110px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 6px;
+}
+.fourth-text{
+    position: relative;
+    top: 170px;
+    left: 130px;
+    color: #ffffff;
+    font-weight: 500;
+}
+.img-container{
+    position: relative;
+    left: 900px;
+    bottom: 250px;
+}
+.img{
+    height: 450px;
+    width: 500px;
+}
+.footer{
+    background-color: #282828;
+    height: 210px;
+    width: 100vw;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+}
+.links a{
+    color: #ffffff;
+    position: relative;
+    top: 30px;
+    left: 160px;
+    font-weight: 200;
+    line-height: 30px;
+    text-decoration: none;
+}
+.pre{
+    color: #ffffff;
+    position: relative;
+    left: 1100px;
+    bottom: 120px;
+    font-weight: 200;
+    cursor: pointer;
+    
+}
+.info p{
+    color: #ffffff;
+    position: relative;
+    left: 1100px;
+    bottom: 120px;
+    font-weight: 200;
+    line-height: 30px;
+    cursor: pointer;
+}
+.icons-img{
+    position: relative;
+    left: 1210px;
+    bottom: 120px;
+    cursor: pointer;
+}
+.icons-email{
+    color: #ffffff;
+    position: relative;
+    left: 1155px;
+    bottom: 90px;
+    font-weight: 200;
+    line-height: 30px;
+    cursor: pointer;
+}
